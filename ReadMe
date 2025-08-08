@@ -51,6 +51,66 @@ Deploy the website.
 Upload to GitHub Pages for free hosting.
 
 ## PROGRAM
+###index.html
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Commercial Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>FlexyShop</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Shop Your Style</h2>
+        <p>Trendy, affordable & delivered to your door.</p>
+        <button>Shop Now</button>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f" alt="Watch">
+            <h3>Camera</h3>
+            <p>Rs600</p>
+        </div>
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f" alt="Shoes">
+            <h3>Clothes</h3>
+            <p>Rs500-Rs1000</p>
+        </div>
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30" alt="Headphones">
+            <h3>Smart watch</h3>
+            <p>Rs850</p>
+        </div>
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1530731141654-5993c3016c77" alt="Bag">
+            <h3>Laptop</h3>
+            <p>80,000</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 FlexyShop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
 
 
 ## OUTPUT
